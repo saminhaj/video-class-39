@@ -80,6 +80,13 @@
     .service-box:nth-child(2n+3){
         margin-right: 0;
     }
+    .about-box-top p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about-box-top::before {
+        left: 136px;
+    }
 }
     
 
@@ -127,12 +134,75 @@
         width: 100%;
         padding-left: 0;
     }
+    .video-right h2 {
+        text-align: center;
+    }
+    .video-right p {
+        text-align: center;
+    }
     .pricing-content h2 {
         font-size: 50px;
     }
     .pricing-content p {
         font-size: 15px !important;
     }
+    .accurate-left h2 {
+        margin-bottom: 33px;
+        text-align: center;
+    }
+    .accurate-left {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .accurate-right {
+        width: 100%;
+    }
+    .accurate-right p {
+        margin-bottom: 30px !important;
+        font-size: 19px;
+        text-align: center;
+        font-weight: 400;
+        width: 70%;
+        margin: auto;
+    }
+    .accurate-box-right {
+        padding-top: 12%;
+    }
+    .about-box {
+        width: 55%;
+        margin-right: 0 !important;
+        margin: auto !important;
+        float: inherit;
+        margin-top: 43px !important;
+    }
+    .about-box-top p {
+        line-height: 28px;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .about-box-top::before {
+        left: 47%;
+    }
+    .about-box-bottom {
+        width: 200px;
+        margin: auto !important;
+        padding-left: 0;
+    }
+    .address-left {
+        width: 100%;
+    }
+    .address-right {
+        width: 100%;
+        padding: 50px;
+    }
+    .contact .name {
+        width: 48%;
+    }
+    .contact .phone {
+        width: 48%;
+    }
+
 }
  @media (max-width:850px){
     /* .pricing-box {
@@ -169,6 +239,14 @@
     .team-box:nth-child(2n+2){
         margin-right: 0;
     }
+    .about-box {
+        width: 75%;
+    }
+    /* .about-box-bottom {
+        width: 200px;
+        margin: auto !important;
+        padding-left: 0;
+    } */
 
    
 } 
@@ -221,6 +299,13 @@
     .pricing-box {
         width: 70%;
     }
+    .team-content h2 {
+        font-size: 27px;
+        font-weight: 500;
+    }
+    .accurate-box-right {
+        padding-top: 10%;
+    }
 }
 
 @media (max-width:650px){
@@ -242,6 +327,7 @@
     .service-box {
         width: 100%;
     }
+ 
 }
 
 @media (max-width:576px){
@@ -269,6 +355,92 @@
     }
     .team-box {
         width: 100%;
+    }
+    .team-content h2 {
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .newsletter-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        color: #756e6e;
+    }
+    .newsletter-content h2 {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+    .defult-input {
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 2px solid #cecdcd;
+        margin-bottom: 20px;
+        font-size: 17px;
+        box-shadow: 1px 1px 10px #6278df99;
+        width: 63%;
+        transition: .5s;
+    }
+    .newsletter-content a {
+        background: #6278df;
+        color: #fff;
+        padding: 10px 0;
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 19px;
+        border: 1px solid transparent;
+        transition: .5s;
+        width: 50%;
+    }
+    .accurate-right p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .accurate-box-left img {
+        border-radius: 0;
+    }
+    .accurate-p {
+        text-align: center !important;
+    }
+    .accurate-box-left {
+        width: 100%;
+    }
+    .accurate-box-right {
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .about-box {
+        width: 100%;
+    }
+    .address-right {
+        padding: 20px;
+    }
+    .contact textarea {
+        width: 100%;
+        padding: 10px 0;
+        padding-left: 10px;
+        font-size: 16px;
+
+    }
+    .contact .phone {
+        width: 103%;
+        padding: 10px 0;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    .contact .name {
+        width: 103%;
+        padding: 10px 0;
+        padding-left: 10px;
+        font-size: 16px;
+
+    }
+    .contact .email {
+        width: 100%;
+        padding: 10px 0;
+        padding-left: 10px;
+        font-size: 16px;
+
     }
 }
 
