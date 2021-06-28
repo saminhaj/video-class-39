@@ -455,6 +455,8 @@ body,h1,h2,h3,h4,h5,h6,span,a,p{
 .accurate {
 	padding: 50px 0;
 }
+.accurate-flx{
+}
 .accurate-left{
 	width: 48%;
 }
@@ -487,23 +489,24 @@ body,h1,h2,h3,h4,h5,h6,span,a,p{
 	margin-bottom: 20px;
 }
 .accurate-box-right p {
-	font-size: 18px;
-	color: #918a8a;
-	font-weight: 300;
+	margin-bottom: 0;
+}
+.accurate-p {
+	margin-bottom: 0 !important;
+	margin: 0 !important;
+	color: #000 !important;
+	font-size: 16px !important;
+	text-align: left !important;
+	width: 100% !important;
 }
 .accurate-right{
 	width: 48%;
 }
 .accurate-right p {
-	margin-bottom: 56px;
+	margin-bottom: 30px;
 	font-size: 20px;
 	font-weight: 400;
 	color: #918a8a;
-}
-.accurate-p {
-	font-size: 18px !important;
-	color: #918a8a !important;
-	font-weight: 300 !important;
 }
 
 /* about */
